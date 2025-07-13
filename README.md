@@ -36,3 +36,11 @@ Author Information
 ------------------
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+
+
+
+## To import a role in to ansible galaxy you should be logged in to ansible galaxy 
+```
+ansible-galaxy role import cholaraju ansible-role-httpd --token
+
+```
